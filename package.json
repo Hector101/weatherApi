@@ -1,0 +1,25 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "get the weather info of your area",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "weather",
+    "location",
+    "gps",
+    "map",
+    "forecast"
+  ],
+  "author": "hector101",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "forecastio": "^1.0.2",
+    "zippity-do-dah": "0.0.2"
+  }
+}
